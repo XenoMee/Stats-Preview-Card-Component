@@ -3,8 +3,12 @@ body{
     margin: 0;
 }
 
+.card{
+    color: white;
+}
 
 .attribution { 
+    color: white;
     font-size: 11px; 
     text-align: center; 
 }
