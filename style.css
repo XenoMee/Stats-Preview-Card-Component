@@ -5,6 +5,7 @@ body{
 
 .card{
     color: white;
+    background-color: hsl(244, 38%, 16%);
 }
 
 .attribution { 
