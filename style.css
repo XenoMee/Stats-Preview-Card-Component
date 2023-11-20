@@ -14,8 +14,6 @@ body{
 .card{
     margin: 7rem 0rem;
     width: 20rem;
-    height: 43rem;
-    color: white;
     background-color: hsl(244, 38%, 16%);
 }
 
@@ -27,8 +25,14 @@ body{
     width: 100%;
 }
 
+.card-body{
+    padding: 1.5rem;
+}
+
 h1{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.7rem;
 }
 
 .span-insights{
@@ -36,17 +40,24 @@ h1{
 }
 
 .card-text{
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
-    font-size: 1rem;
+    padding: 0rem 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.6;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
 
 .card-stat{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%);
     margin: 0;
     margin-top: 1.5rem;
+}
+
+.stat-name{
+    color: hsla(0, 0%, 100%, 0.6);
 }
 
 .attribution { 
