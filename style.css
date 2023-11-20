@@ -32,6 +32,7 @@ body{
 }
 
 .attribution { 
+    margin-bottom: 1rem;
     color: white;
     font-size: 0.7rem; 
     text-align: center; 
