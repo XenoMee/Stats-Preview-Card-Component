@@ -27,12 +27,24 @@ body{
 
 .card-body{
     padding: 1.5rem;
+    height: 28.5rem;
+    
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
 }
 
 h1{
+    margin: 0;
     font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
     color: hsl(0, 0%, 100%);
-    font-size: 1.7rem;
+    font-size: 1.64rem;
 }
 
 .span-insights{
@@ -40,10 +52,10 @@ h1{
 }
 
 .card-text{
+    margin-bottom: 0;
     font-family: 'Inter', sans-serif;
-    margin: 0;
     padding: 0rem 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.82rem;
     line-height: 1.6;
     color: hsla(0, 0%, 100%, 0.75);
 }
@@ -52,12 +64,12 @@ h1{
 .card-stat{
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(0, 0%, 100%);
-    margin: 0;
-    margin-top: 1.5rem;
+    margin-bottom: 0;
 }
 
 .stat-name{
     color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 0.3rem;
 }
 
 .attribution { 
