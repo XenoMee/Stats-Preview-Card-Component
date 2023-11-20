@@ -15,6 +15,8 @@ body{
     margin: 7rem 0rem;
     width: 20rem;
     background-color: hsl(244, 38%, 16%);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .card-header{
@@ -23,12 +25,13 @@ body{
 
 .card-header > img{
     width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .card-body{
     padding: 1.5rem;
     height: 28.5rem;
-    
 }
 
 .mt-1{
