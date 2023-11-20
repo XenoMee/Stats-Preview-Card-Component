@@ -19,8 +19,25 @@ body{
     text-align: center;
 }
 
-img{
+.card .main-image{
+    position: relative;
+    height: 14.68rem;
+}
+
+.card .main-image img{
     max-width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card .main-image::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: hsla(277, 100%, 25%, 0.6);
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
@@ -99,13 +116,21 @@ h1{
         border-top-right-radius: 0;
     }
 
-    .card > img{
-        content: url("./images/image-header-desktop.jpg");
+    .card > .main-image{
         grid-area: 1 / 2 / -2 / -1;
+        height: 100%;
+    }
+
+    .card > .main-image > img{
+        content: url("./images/image-header-desktop.jpg");
         height: 100%;
         border-top-left-radius: 0;
         border-bottom-right-radius: 0.5em;
-        object-fit: fill;
+    }
+
+    .card .main-image::after{
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0.5em;
     }
 
     .card-body{
@@ -174,13 +199,13 @@ h1{
         border-top-right-radius: 0;
     }
 
-    .card > img{
-        content: url("./images/image-header-desktop.jpg");
+    .card > .main-image{
         grid-area: 1 / 2 / -2 / -1;
         height: 100%;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 0.5em;
-        object-fit: fill;
+    }
+
+    .card > .main-image > img{
+        height: 100%;
     }
 
     .card-body{
