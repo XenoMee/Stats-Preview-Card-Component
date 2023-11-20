@@ -8,7 +8,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .card{
@@ -17,6 +16,7 @@ body{
     background-color: hsl(244, 38%, 16%);
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+    text-align: center;
 }
 
 img{
@@ -59,7 +59,6 @@ h1{
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-
 .card-stat{
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(0, 0%, 100%);
@@ -72,7 +71,7 @@ h1{
 }
 
 .attribution { 
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
     color: white;
     font-size: 0.7rem; 
     text-align: center; 
@@ -80,4 +79,75 @@ h1{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1000px){
+    .content-flex{
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .card{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        width: 68em;
+        height: 30em;
+        text-align: start;
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0;
+    }
+
+    .card > img{
+        content: url("./images/image-header-desktop.jpg");
+        grid-area: 1 / 2 / -2 / -1;
+        height: 100%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0.5em;
+        object-fit: fill;
+    }
+
+    .card-body{
+        padding: 1.5em 3em;
+        height: 100%;
+        position: relative;
+    }
+
+    h1{
+        width: 11em;
+        font-size: 2.4em;
+    }
+
+    .card-text{
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    .card-body > p {
+        width: 24em;
+        line-height: 1.9;
+        font-size: 1em;
+    }
+
+    .stats{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        gap: 0em 4em;
+        position: absolute;
+        bottom: 7em;
+    }
+
+    .card-stat{
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .stat-name{
+        display: block;
+        padding: 0;
+        margin: 0;
+        margin-top: 0.2em;
+    }
 }
