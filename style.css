@@ -15,18 +15,14 @@ body{
     margin: 7rem 0rem;
     width: 20rem;
     background-color: hsl(244, 38%, 16%);
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
-.card-header{
-    background-color: hsl(277, 64%, 61%);
-}
-
-.card-header > img{
-    width: 100%;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+img{
+    max-width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 .card-body{
