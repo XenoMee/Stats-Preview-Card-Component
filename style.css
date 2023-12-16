@@ -149,9 +149,21 @@ body{
         font-size: 1.6rem;
     }
 
+    .card-body-description{
+        margin-bottom: 1rem;
+    }
+
     .stats{
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .card-stat{
+        font-size: 1.2rem;
+    }
+
+    .stat-name{
+        font-size: 0.7rem;
     }
 
 }
