@@ -9,12 +9,13 @@ body{
 }
 
 .content{
+    min-height: 100svh;
     display: grid;
     place-items: center;
 }
 
 .card{
-    margin: 7rem 0rem;
+    /* margin: 7rem 0rem; */
     width: 20rem;
     background-color: hsl(244, 38%, 16%);
     border-bottom-left-radius: 0.5rem;
