@@ -3,14 +3,6 @@
     margin-top: 0;
 }
 
-.mt-1{
-    margin-top: 1rem;
-}
-
-.mt-2{
-    margin-top: 2rem;
-}
-
 body{
     margin: 0;
     background-color: hsl(233, 47%, 7%);
