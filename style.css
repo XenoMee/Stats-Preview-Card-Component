@@ -173,30 +173,12 @@ body{
 @media (min-width: 69em){
 
     .card{
-        margin: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr auto;
-        width: 68em;
-        height: 30em;
-        text-align: start;
-        border-top-left-radius: 0.5em;
-        border-top-right-radius: 0;
-    }
-
-    .card > .main-image{
-        grid-area: 1 / 2 / -2 / -1;
-        height: 100%;
-    }
-
-    .card > .main-image > img{
-        height: 100%;
+        width: 68rem;
+        height: 29rem;
     }
 
     .card-body{
-        padding: 1.5em 3em;
-        height: 100%;
-        position: relative;
+        padding: 3rem 3rem 2.5rem 3rem;
     }
 
     h1{
