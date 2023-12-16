@@ -27,6 +27,7 @@ body{
 
 .card .main-image{
     position: relative;
+    margin-bottom: 1rem;
 }
 
 .card .main-image img{
