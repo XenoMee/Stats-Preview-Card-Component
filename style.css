@@ -106,32 +106,29 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 710px){
-    .content-flex{
-        flex-direction: row;
-        height: 100vh;
+@media (min-width: 46em){
+    .content{
+        min-height: 100vh;
     }
 
     .card{
-        margin: 0;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr auto;
-        width: 45em;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        width: 42em;
         height: 21em;
-        text-align: start;
         border-top-left-radius: 0.5em;
         border-top-right-radius: 0;
     }
 
-    .card > .main-image{
+    .card .main-image{
         grid-area: 1 / 2 / -2 / -1;
-        height: 100%;
+        margin: 0;
     }
 
-    .card > .main-image > img{
+    .card .main-image > img{
         content: url("./images/image-header-desktop.jpg");
-        height: 100%;
+        min-height: 100%;
         border-top-left-radius: 0;
         border-bottom-right-radius: 0.5em;
     }
@@ -142,13 +139,12 @@ body{
     }
 
     .card-body{
-        padding: 1.5em 3em;
-        width: 18em;
-        height: 100%;
+        text-align: start;
+        padding: 2.5rem;
         position: relative;
     }
 
-    h1{
+    .card-body-title{
         width: 11em;
         font-size: 1.5em;
     }
