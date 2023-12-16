@@ -12,10 +12,10 @@ body{
     min-height: 100svh;
     display: grid;
     place-items: center;
+    padding: 5rem 0rem;
 }
 
 .card{
-    /* margin: 7rem 0rem; */
     width: 20rem;
     background-color: hsl(244, 38%, 16%);
     border-bottom-left-radius: 0.5rem;
@@ -25,10 +25,11 @@ body{
 
 .card .main-image{
     position: relative;
-    height: 14.68rem;
+    /* height: 14.68rem; */
 }
 
 .card .main-image img{
+    display: block;
     max-width: 100%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
