@@ -6,7 +6,6 @@
 body{
     margin: 0;
     background-color: hsl(233, 47%, 7%);
-    font-family: 'Lexend Deca', sans-serif;
     line-height: 1.5;
 }
 
@@ -51,10 +50,11 @@ body{
 }
 
 .card-body{
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
 }
 
 .card-body-title{
+    font-family: 'Lexend Deca', sans-serif;
     color: hsl(0, 0%, 100%);
     font-size: 1.7rem;
 }
@@ -64,12 +64,9 @@ body{
 }
 
 .card-text{
-    margin-bottom: 0;
     font-family: 'Inter', sans-serif;
-    padding: 0rem 1.5rem;
-    font-size: 0.82rem;
-    line-height: 1.6;
-    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.9rem;
+    color: hsla(0, 0%, 100%, 0.6);
 }
 
 .card-stat{
