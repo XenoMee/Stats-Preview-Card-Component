@@ -73,6 +73,14 @@ body{
     margin-bottom: 2.5rem;
 }
 
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 .card-body-description,
 .card-stat{
     font-family: 'Inter', sans-serif;
