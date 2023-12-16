@@ -110,6 +110,7 @@ body{
 @media (min-width: 46em){
     .content{
         min-height: 100vh;
+        padding: 0;
     }
 
     .card{
@@ -169,12 +170,7 @@ body{
 
 }
 
-
-@media (min-width: 1000px){
-    .content-flex{
-        flex-direction: row;
-        height: 100vh;
-    }
+@media (min-width: 69em){
 
     .card{
         margin: 0;
