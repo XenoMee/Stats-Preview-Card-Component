@@ -1,10 +1,20 @@
 *, *::after, *::before{
     box-sizing: border-box;
+    margin-top: 0;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
 }
 
 body{
-    background-color: hsl(233, 47%, 7%);
     margin: 0;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Lexend Deca', sans-serif;
     line-height: 1.5;
 }
 
@@ -25,7 +35,6 @@ body{
 
 .card .main-image{
     position: relative;
-    /* height: 14.68rem; */
 }
 
 .card .main-image img{
@@ -49,21 +58,10 @@ body{
 }
 
 .card-body{
-    padding: 1.5rem;
-    height: 28.5rem;
+    padding: 1rem 1.5rem;
 }
 
-.mt-1{
-    margin-top: 1rem;
-}
-
-.mt-2{
-    margin-top: 2rem;
-}
-
-h1{
-    margin: 0;
-    font-family: 'Lexend Deca', sans-serif;
+.card-body-title{
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     font-size: 1.64rem;
