@@ -62,9 +62,8 @@ body{
 }
 
 .card-body-title{
-    font-weight: 700;
     color: hsl(0, 0%, 100%);
-    font-size: 1.64rem;
+    font-size: 1.7rem;
 }
 
 .span-insights{
