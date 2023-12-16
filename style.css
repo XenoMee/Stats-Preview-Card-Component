@@ -149,6 +149,11 @@ body{
         font-size: 1.6rem;
     }
 
+    .stats{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
 
 
