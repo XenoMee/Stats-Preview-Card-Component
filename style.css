@@ -8,11 +8,9 @@ body{
     line-height: 1.5;
 }
 
-.content-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.content{
+    display: grid;
+    place-items: center;
 }
 
 .card{
