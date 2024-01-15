@@ -98,17 +98,6 @@ body {
   font-size: 0.8rem;
 }
 
-.attribution {
-  margin-bottom: 1rem;
-  color: white;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (min-width: 46em) {
   .content {
     min-height: 100vh;
@@ -185,21 +174,20 @@ body {
     font-size: 2.4em;
   }
 
-  .card-body-description{
+  .card-body-description {
     font-size: 1.1rem;
     margin-bottom: 5rem;
   }
- 
-  .stats{
+
+  .stats {
     width: 25rem;
   }
 
-  .card-stat{
+  .card-stat {
     font-size: 1.5rem;
   }
 
-  .stat-name{
+  .stat-name {
     font-size: 0.8rem;
   }
-
 }
