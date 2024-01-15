@@ -134,7 +134,6 @@ header {
 
 .preview-card__stats {
   list-style: none;
-  display: block;
 }
 
 .stat-item {
@@ -165,8 +164,10 @@ header {
 @media (min-width: 50em) {
   .preview-card {
     --fs-title: 2rem;
+    --content-padding: 1.9rem 4.6rem;
     grid-template-columns: 1fr 1fr;
     max-width: 68.5rem;
+    text-align: start;
   }
 
   header {
@@ -175,5 +176,11 @@ header {
 
   .has-flex {
     flex-direction: row;
+    justify-content: space-between;
   }
+
+  /* .preview-card__stats {
+    width: 90%;
+    margin-right: auto;
+  } */
 }
