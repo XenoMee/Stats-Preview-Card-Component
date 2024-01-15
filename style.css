@@ -134,6 +134,7 @@ header {
 
 .preview-card__stats {
   list-style: none;
+  display: block;
 }
 
 .stat-item {
