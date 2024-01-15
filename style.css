@@ -78,7 +78,7 @@ body {
 
 .preview-card {
   --content-spacing: 1rem;
-  --content-padding: 1rem;
+  --content-padding: 1.5rem;
   background-color: var(--clr-primary-700);
   text-align: center;
 
@@ -101,7 +101,7 @@ header {
 }
 
 .preview-card__content {
-  padding: 1rem 2rem;
+  padding: var(--content-padding);
 }
 
 .preview-card__title {
