@@ -132,7 +132,7 @@ header {
   list-style: none;
 }
 
-.stat {
+.stat-item {
   display: grid;
   gap: 0.5rem;
 }
@@ -155,98 +155,4 @@ header {
   justify-content: center;
   align-items: center;
   gap: var(--flex-gap);
-}
-
-@media (min-width: 46em) {
-  .content {
-    min-height: 100vh;
-    padding: 0;
-  }
-
-  .card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    width: 45em;
-    height: 21em;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0;
-  }
-
-  .card .main-image {
-    grid-area: 1 / 2 / -2 / -1;
-    margin: 0;
-  }
-
-  .card .main-image > img {
-    content: url("./images/image-header-desktop.jpg");
-    min-height: 100%;
-    border-top-left-radius: 0;
-    border-bottom-right-radius: 0.5em;
-  }
-
-  .card .main-image::after {
-    border-top-left-radius: 0;
-    border-bottom-right-radius: 0.5em;
-  }
-
-  .card-body {
-    text-align: start;
-    padding: 2.5rem 2.5rem 1.5rem 2.5rem;
-    position: relative;
-  }
-
-  .card-body-title {
-    font-size: 1.6rem;
-  }
-
-  .card-body-description {
-    margin-bottom: 2.5rem;
-  }
-
-  .stats {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .card-stat {
-    font-size: 1.2rem;
-  }
-
-  .stat-name {
-    font-size: 0.7rem;
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 69em) {
-  .card {
-    width: 68rem;
-    height: 29rem;
-  }
-
-  .card-body {
-    padding: 3rem 3rem 2.5rem 3rem;
-  }
-
-  .card-body-title {
-    font-size: 2.4em;
-  }
-
-  .card-body-description {
-    font-size: 1.1rem;
-    margin-bottom: 5rem;
-  }
-
-  .stats {
-    width: 25rem;
-  }
-
-  .card-stat {
-    font-size: 1.5rem;
-  }
-
-  .stat-name {
-    font-size: 0.8rem;
-  }
 }
