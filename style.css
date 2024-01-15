@@ -128,13 +128,16 @@ header {
 }
 
 .stat {
-  color: hsl(0, 0%, 100%);
-  margin-bottom: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.stat-value {
+  color: white;
 }
 
 .stat-name {
-  color: hsla(0, 0%, 100%, 0.5);
-  font-size: 0.8rem;
+  color: var(--clr-neutral-sh-100);
 }
 
 .has-flex {
