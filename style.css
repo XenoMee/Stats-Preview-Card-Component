@@ -78,8 +78,8 @@ body {
 
 .preview-card {
   --content-spacing: 1rem;
-  --content-padding: 2rem 1.4rem;
-  --fs-title: 1.55rem;
+  --content-padding: 2rem 1.8rem;
+  --fs-title: 1.7rem;
   --fs-stat-value: 1.1rem;
   background-color: var(--clr-primary-700);
   text-align: center;
