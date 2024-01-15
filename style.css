@@ -79,6 +79,10 @@ body {
   --content-padding: 1rem;
   background-color: var(--clr-primary-700);
   text-align: center;
+
+  display: grid;
+  place-items: center;
+  gap: var(--content-spacing);
 }
 
 .preview-card__image {
