@@ -25,6 +25,7 @@
 /* Remove default margins */
 * {
   margin: 0;
+  padding: 0;
 }
 
 /* Avoid text overflow */
@@ -125,6 +126,10 @@ header {
 .preview-card__subtitle {
   color: var(--clr-neutral-p-100);
   margin-bottom: 1rem;
+}
+
+.preview-card__stats {
+  list-style: none;
 }
 
 .stat {
