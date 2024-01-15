@@ -125,14 +125,6 @@ header {
   margin-bottom: 1rem;
 }
 
-.preview-card__stats {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .stat {
   color: hsl(0, 0%, 100%);
   margin-bottom: 0;
@@ -141,6 +133,16 @@ header {
 .stat-name {
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 0.8rem;
+}
+
+.has-flex-column {
+  --flex-gap:.5rem
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--flex-gap);
 }
 
 @media (min-width: 46em) {
