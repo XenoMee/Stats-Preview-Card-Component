@@ -80,7 +80,7 @@ body {
   --content-spacing: 1rem;
   --content-padding: 2rem 1.8rem;
   --fs-title: 1.7rem;
-  --fs-stat-value: 1.1rem;
+  --fs-stat-value: 1.5rem;
   background-color: var(--clr-primary-700);
   text-align: center;
   border-radius: 0.5rem;
@@ -134,10 +134,12 @@ header {
 
 .stat-value {
   color: white;
+  font-size: var(--fs-stat-value);
 }
 
 .stat-name {
   color: var(--clr-neutral-sh-100);
+  letter-spacing: 1px;
 }
 
 .has-flex {
