@@ -179,6 +179,10 @@ header {
     justify-content: space-between;
   }
 
+  .preview-card__subtitle {
+    margin-bottom: 4.5rem;
+  }
+
   .preview-card__stats {
     width: 90%;
     margin-right: auto;
