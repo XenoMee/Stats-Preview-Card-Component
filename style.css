@@ -179,8 +179,8 @@ header {
     justify-content: space-between;
   }
 
-  /* .preview-card__stats {
+  .preview-card__stats {
     width: 90%;
     margin-right: auto;
-  } */
+  }
 }
