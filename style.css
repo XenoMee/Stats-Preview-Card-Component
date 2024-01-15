@@ -162,11 +162,8 @@ header {
 }
 
 @media (min-width: 50em) {
-  body {
-    padding: 0;
-  }
-
   .preview-card {
+    --fs-title: 2rem;
     grid-template-columns: 1fr 1fr;
     max-width: 68.5rem;
   }
