@@ -78,7 +78,7 @@ body {
 
 .preview-card {
   --content-spacing: 1rem;
-  --content-padding: 1.4rem;
+  --content-padding: 2rem 1.4rem;
   --fs-title: 1.55rem;
   --fs-stat-value: 1.1rem;
   background-color: var(--clr-primary-700);
@@ -135,8 +135,8 @@ header {
   font-size: 0.8rem;
 }
 
-.has-flex-column {
-  --flex-gap:.5rem
+.has-flex {
+  --flex-gap: 1.5rem;
 
   display: flex;
   flex-direction: column;
