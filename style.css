@@ -104,6 +104,10 @@ header {
 
 .preview-card__content {
   padding: var(--content-padding);
+
+  display: grid;
+  place-items: center;
+  gap: var(--content-spacing);
 }
 
 .preview-card__title {
@@ -117,9 +121,8 @@ header {
 }
 
 .preview-card__subtitle {
-  font-size: 0.9rem;
-  color: hsla(0, 0%, 100%, 0.6);
-  margin-bottom: 2.5rem;
+  color: var(--clr-neutral-p-100);
+  margin-bottom: 1rem;
 }
 
 .preview-card__stats {
