@@ -75,10 +75,9 @@ body {
 }
 
 .preview-card {
-  width: 20rem;
-  background-color: hsl(244, 38%, 16%);
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  --content-spacing: 1rem;
+  --content-padding: 1rem;
+  background-color: var(--clr-primary-700);
   text-align: center;
 }
 
