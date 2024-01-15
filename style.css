@@ -79,6 +79,8 @@ body {
 .preview-card {
   --content-spacing: 1rem;
   --content-padding: 1.5rem;
+  --fs-title: 1.3rem;
+  --fs-stat-value: 1.1rem;
   background-color: var(--clr-primary-700);
   text-align: center;
 
@@ -105,8 +107,7 @@ header {
 }
 
 .preview-card__title {
-  color: hsl(0, 0%, 100%);
-  font-size: 1.7rem;
+  color: white;
 }
 
 .span-insights {
