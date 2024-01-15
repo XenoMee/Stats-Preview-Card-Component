@@ -18,7 +18,41 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  margin-top: 0;
+}
+
+* {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2 {
+  line-height: 1.1;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  display: block;
 }
 
 body {
