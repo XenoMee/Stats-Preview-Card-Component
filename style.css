@@ -167,7 +167,7 @@ header {
     --content-spacing: 1.5rem;
     --content-padding: 1.9rem 4.6rem;
     grid-template-columns: 1fr 1fr;
-    max-width: 68.5rem;
+    max-width: 65rem;
     text-align: start;
   }
 
