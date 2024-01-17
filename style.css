@@ -127,7 +127,7 @@ header {
   color: var(--clr-primary-300);
 }
 
-p {
+.preview-card__content > p {
   margin-bottom: 1em;
 }
 
@@ -179,7 +179,7 @@ p {
     justify-content: space-between;
   }
 
-  p {
+  .preview-card__content > p {
     margin-bottom: 4em;
   }
 
