@@ -129,7 +129,7 @@ header {
 
 .preview-card__subtitle {
   color: var(--clr-neutral-p-100);
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 .preview-card__stats {
@@ -181,7 +181,7 @@ header {
   }
 
   .preview-card__subtitle {
-    margin-bottom: 4rem;
+    margin-bottom: 4em;
   }
 
   .preview-card__stats {
