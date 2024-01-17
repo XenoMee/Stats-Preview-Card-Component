@@ -195,6 +195,6 @@ header {
   .preview-card {
     --fs-title: 2rem;
     --content-spacing: 0rem 1.5rem;
-    --content-padding: 2rem 3.6rem;
+    --content-padding: 1.7rem 3.6rem;
   }
 }
