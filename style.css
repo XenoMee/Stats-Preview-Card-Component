@@ -127,8 +127,7 @@ header {
   color: var(--clr-primary-300);
 }
 
-.preview-card__subtitle {
-  color: var(--clr-neutral-p-100);
+p {
   margin-bottom: 1em;
 }
 
