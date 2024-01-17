@@ -122,7 +122,7 @@ header {
   font-size: var(--fs-title);
 }
 
-.accent-clr {
+.accent-color {
   font-family: var(--ff-accent);
   color: var(--clr-primary-300);
 }
