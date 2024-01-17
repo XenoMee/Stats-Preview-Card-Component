@@ -73,7 +73,7 @@ body {
   font-weight: var(--fw-regular);
   line-height: 1.5;
   min-height: 100svh;
-  padding: 0rem 1.5rem;
+  margin: 1.5rem;
 
   display: grid;
   place-items: center;
