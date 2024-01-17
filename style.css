@@ -187,10 +187,10 @@ header {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .preview-card {
     --fs-title: 2rem;
     --content-spacing: 1.5rem;
-    --content-padding: 2rem 4rem;
+    --content-padding: 2rem 3.6rem;
   }
 }
