@@ -160,7 +160,7 @@ header {
   gap: var(--flex-gap);
 }
 
-@media (min-width: 56.25em) {
+@media (min-width: 720px) {
   .preview-card {
     --fs-title: 2rem;
     --content-spacing: 1.5rem;
