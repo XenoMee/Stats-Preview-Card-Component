@@ -173,6 +173,7 @@ header {
   }
 
   .preview-card__content {
+    place-items: start;
     height: 100%;
   }
 
@@ -194,7 +195,7 @@ header {
 @media (min-width: 1000px) {
   .preview-card {
     --fs-title: 2rem;
-    --content-spacing: 1.5rem;
+    --content-spacing: 0rem 1.5rem;
     --content-padding: 2rem 3.6rem;
   }
 }
