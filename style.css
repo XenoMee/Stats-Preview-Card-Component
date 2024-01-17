@@ -186,3 +186,11 @@ header {
     margin-right: auto;
   }
 }
+
+@media (min-width: 900px) {
+  .preview-card {
+    --fs-title: 2rem;
+    --content-spacing: 1.5rem;
+    --content-padding: 2rem 4rem;
+  }
+}
